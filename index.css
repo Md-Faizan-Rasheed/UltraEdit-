@@ -1,0 +1,29 @@
+.button_hover{
+    border:none;
+    transition: 0.2s;
+    box-shadow:00 0 4px #fff,
+    0 0 0 8px #069fb6
+}
+.button_hover:hover{
+    box-shadow:0 0 0 4px #fff,
+    0 0 0 8px #069fb6
+}
+.button_hover:focus{
+    box-shadow:0 0 0 7px #fff,
+    0 0 0 8px  #069fb6,
+}
+
+.found{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 200px;
+    width: 100px;
+}
+ /* @media  screen and (max-widht:1000px){
+    .found .show{
+        background-color: red;
+    }
+ } */
+    
+ 
